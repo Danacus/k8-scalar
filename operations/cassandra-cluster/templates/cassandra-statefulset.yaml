@@ -70,3 +70,10 @@ spec:
             - /ready-probe.sh
           initialDelaySeconds: 15
           timeoutSeconds: 5
+        volumeMounts:
+        - mountPath: /var/lib/cassandra
+          name: data-volume
+      volumes:
+      - name: data-volume
+        persistentVolumeClaim:
+          claimName: cassandra-volume-claim
