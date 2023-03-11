@@ -39,8 +39,8 @@ The `${k8_scalar_dir}` environment variable refers thus to the local directory o
 
 The tutorial provides a number of bash scripts to demonstrate the usage of K8-Scalar, These scripts contain environment variables which should be self-declarative.
 
-  * `${MyRepository}` = the name of the Docker repository of the customized experiment-controller image (based on Scalar). Create in 
-                        advance an account for the ${MyRepository} repository at https://hub.docker.com/. In the context of this tutorial, 
+  * `${my_repository}` = the name of the Docker repository of the customized experiment-controller image (based on Scalar). Create in 
+                        advance an account for the ${my_repository} repository at https://hub.docker.com/. In the context of this tutorial, 
                         all experiments from the paper are stored in the t138 repository at docker hub.
   * `${my_experiment}` = the name of the directory under `${k8_scalar_dir}` where code and data of your current experiment is stored
   * `${my_username}`= your username that also corresponds with the name of your relative homedir
@@ -196,10 +196,10 @@ mvn package
 cp ${k8_scalar_dir}/development/scalar/target/scalar-1.0.0.jar ${k8_scalar_dir}/development/example-experiment/lib/scalar-1.0.0.jar
 
 #Then, build a new image for the experiment-controller using the Dockerfile in the [example-experiment](../example-experiment).
-docker build -t ${myRepository}/experiment-controller ${k8_scalar_dir}/development/example-experiment/
-overwrite in the following command MyRepository_DOCKERHUB_PASSWRD with your secret password: 
-# docker login -u ${MyRepository} -p MyRepository_DOCKERHUB_PASSWRD  
-docker push ${MyRepository}/experiment-controller
+docker build -t ${my_repository}/experiment-controller ${k8_scalar_dir}/development/example-experiment/
+overwrite in the following command my_repository_DOCKERHUB_PASSWRD with your secret password: 
+# docker login -u ${my_repository} -p my_repository_DOCKERHUB_PASSWRD  
+docker push ${my_repository}/experiment-controller
 
 ```
 Scalar is a fully distributed, extensible load testing tool with numerous features. Have a look at the [Scalar documentation](./scalar) for more information.
