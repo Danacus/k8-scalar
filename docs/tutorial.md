@@ -416,8 +416,7 @@ sed -i 's/C:\\Users\\eddy\\.minikube\\/\/root\/.kube\//g' ./config
 *Linux/MacOS*
 
 ```
-sed -i "s/Users\/${my_username}\/.minikube\/profiles\/minikube\//root\/.kube\//g" ./config
-sed -i "s/Users\/${my_username}\/.minikube\//root\/.kube\//g" ./config
+sed -i "s,${HOME}/.minikube/\(profiles/minikube/\|\),/root/.kube/,g" ./config
 ```
 
 ### Creating the secret
