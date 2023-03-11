@@ -82,23 +82,23 @@ chmod 700 get_helm.sh
 ```
 ### For Linux:
 
-Install [VirtualBox](https://www.virtualbox.org/wiki/Linux_Downloads)
+Install kubectl according to the [documentation](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/),
+or install `kubectl` (Debian, Arch) or `kubernetes-client` (Fedora) using your package manager.
 
-install kubectl, minikube and helm client
-```bash
-# Install kubectl:
-curl -LO https://storage.googleapis.com/kubernetes-release/release/v1.25.0/bin/linux/amd64/kubectl && chmod +x ./kubectl && sudo mv ./kubectl /usr/local/bin/kubectl
-#Install MiniKube
-curl -Lo minikube https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64 && chmod +x minikube && sudo mv minikube /usr/local/bin/
-# Start MiniKube with enough resources
-minikube start --no-vtx-check --driver=virtualbox --cpus 4 --memory 8192
-```
+Install minikube by installing the package for your distribution, as explained in the [documentation](https://minikube.sigs.k8s.io/docs/start/).
+
+Install all prerequisites of KVM for your distribution (`libvirt` and `qemu-kvm`), as explained [here](https://minikube.sigs.k8s.io/docs/drivers/kvm2/),
+and set KVM as the default driver: `minikube config set driver kvm2`.
+
+Now the minikube cluster can be started with `minikube start --cpus 4 --memory 8192` (adjust according to the resources available on your system if necessary).
 
 If you get an authorization error when running `kubectl get nodes`:
+
 ```
-$ kubectl.exe get nodes
+$ kubectl get nodes
 error: You must be logged in to the server (Unauthorized)
 ```
+
 then you have to switch to the minikube kubectl context
 
 ```
@@ -110,13 +110,7 @@ NAME       STATUS    ROLES     AGE       VERSION
 minikube   Ready     <none>    21m       v1.23.0
 ```
 
-Install Helm
-```bash
-# Install Helm client
-curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3
-chmod 700 get_helm.sh
-./get_helm.sh
-```
+Follow the [helm documentation](https://helm.sh/docs/intro/install/) to install helm, usually by installing the `helm` package using your package manager.
 
 ### For Windows:
 
