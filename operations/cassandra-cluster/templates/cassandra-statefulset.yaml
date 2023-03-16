@@ -3,6 +3,8 @@ kind: StatefulSet
 metadata:
   name: cassandra
 spec:
+  updateStrategy:
+    type: RollingUpdate
   selector:
     matchLabels:
       app: cassandra
@@ -40,7 +42,7 @@ spec:
           preStop:
             exec:
               #command: ["/bin/sh", "-c", "nodetool decommission && PID=$(pidof java) && kill $PID && while ps -p $PID > /dev/null; do sleep 1; done"]
-              command: ["/bin/sh", "-c", "nodetool decommission"]
+              command: ["/bin/sh", "-c", "nodetool decommission && rm -rf /var/lib/cassandra/"]
         env:
           - name: MAX_HEAP_SIZE
             value: 1000M
