@@ -136,7 +136,7 @@ teardown_run() {
         mv *.txt /exp/var/logs
 
 	# Remove data added to database
-	kubectl exec -n $namespacel $pod -c $container -- cqlsh -e "TRUNCATE scalar.logs;"
+	kubectl exec -n $namespace $pod -c $container -- cqlsh -e "TRUNCATE scalar.logs;"
 }
 run() {
 	local user_peak_load=$1
