@@ -35,6 +35,8 @@ ARG_SINGLE_RUN_REGEX=^[0-9]*$
 
 duration=60
 pod="cassandra-0"
+container="cassandra"
+namespace="default"
 request=125
 increment=0
 limit=125
@@ -59,6 +61,14 @@ get_input() {
  		-p|--pod)
 		    shift;
 		    pod=${1}
+ 		    ;;
+ 		-c|--container)
+		    shift;
+		    container=${1}
+ 		    ;;
+ 		-n|--namespace)
+		    shift;
+		    namespace=${1}
  		    ;;
 	  	-h|--help) usage >&2; exit 0 ;;
 	    *)
@@ -97,8 +107,8 @@ setup_experiment() {
 	rm -r /exp/var >&/dev/null
 	mkdir /exp/var >&/dev/null
 	mkdir -p /exp/var/results /exp/var/logs
-	kubectl exec $pod -- cqlsh -e "CREATE KEYSPACE IF NOT EXISTS scalar WITH replication = {'class':'SimpleStrategy', 'replication_factor':1};"
-	kubectl exec $pod -- cqlsh -e "CREATE TABLE IF NOT EXISTS scalar.logs (id text PRIMARY KEY, timestamp text, message text);"
+	kubectl exec -n $namespace $pod -c $container -- cqlsh -e "CREATE KEYSPACE IF NOT EXISTS scalar WITH replication = {'class':'SimpleStrategy', 'replication_factor':1};"
+	kubectl exec -n $namespace $pod -c $container -- cqlsh -e "CREATE TABLE IF NOT EXISTS scalar.logs (id text PRIMARY KEY, timestamp text, message text);"
 }
 setup_run() {
 	local user_peak_load=$1
@@ -126,7 +136,7 @@ teardown_run() {
         mv *.txt /exp/var/logs
 
 	# Remove data added to database
-	kubectl exec $pod -- cqlsh -e "TRUNCATE scalar.logs;"
+	kubectl exec -n $namespacel $pod -c $container -- cqlsh -e "TRUNCATE scalar.logs;"
 }
 run() {
 	local user_peak_load=$1
