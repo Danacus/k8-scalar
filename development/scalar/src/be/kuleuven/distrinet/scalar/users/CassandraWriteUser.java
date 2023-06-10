@@ -8,15 +8,9 @@ import be.kuleuven.distrinet.scalar.exceptions.RequestException;
 import be.kuleuven.distrinet.scalar.requests.CassandraWriteRequest;
 import be.kuleuven.distrinet.scalar.cassandra.DatastaxCassandraClient;
 
-public class CassandraWriteUser extends User {
-	protected DatastaxCassandraClient cassandra;
-
-//  DatastaxCassandraClient 
-	
+public class CassandraWriteUser extends CassandraUser {
     CassandraWriteUser(UserPool pool) {
         super(pool);
-        super.targetUrl();
-        cassandra = DatastaxCassandraClient.getInstance(super.targetUrl());
     }
     
     public DatastaxCassandraClient getCassandraClient() {

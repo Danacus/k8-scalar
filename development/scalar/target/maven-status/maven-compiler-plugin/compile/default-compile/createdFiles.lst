@@ -1,0 +1,7 @@
+be/kuleuven/distrinet/scalar/requests/CassandraReadRequest.class
+be/kuleuven/distrinet/scalar/users/CassandraUser.class
+be/kuleuven/distrinet/scalar/users/CassandraWriteUser.class
+be/kuleuven/distrinet/scalar/cassandra/DatastaxCassandraClient.class
+be/kuleuven/distrinet/scalar/requests/CassandraWriteRequest.class
+be/kuleuven/distrinet/scalar/users/CassandraAdminInitUser.class
+be/kuleuven/distrinet/scalar/users/CassandraReadUser.class

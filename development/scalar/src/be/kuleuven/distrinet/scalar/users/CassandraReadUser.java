@@ -8,15 +8,11 @@ import be.kuleuven.distrinet.scalar.exceptions.InternalException;
 import be.kuleuven.distrinet.scalar.exceptions.RequestException;
 import be.kuleuven.distrinet.scalar.requests.CassandraReadRequest;
 
-public class CassandraReadUser extends User {
-	protected DatastaxCassandraClient cassandra;
-	
-    CassandraReadUser(UserPool pool) {
+public class CassandraReadUser extends CassandraUser {
+    public CassandraReadUser(UserPool pool) {
         super(pool);
-        super.targetUrl();
-        cassandra = DatastaxCassandraClient.getInstance(super.targetUrl());
     }
-    
+
     public DatastaxCassandraClient getCassandraClient() {
     	return cassandra;
     }

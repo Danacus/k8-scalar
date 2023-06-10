@@ -1,10 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d31bac2-ae68-422e-ad2f-5489d78d50b5" name="Default" comment="" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
+    <list default="true" id="8d31bac2-ae68-422e-ad2f-5489d78d50b5" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/scalar_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/scalar_1_0_0__2_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/scalar_1_0_0__3_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/be/kuleuven/distrinet/scalar/users/CassandraAdminInitUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/be/kuleuven/distrinet/scalar/users/CassandraUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jnr_jnr_x86asm_1_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_hazelcast_hazelcast_3_6_EA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_hazelcast_hazelcast_cloud_3_6_EA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jsch_0_1_53.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_lmax_disruptor_3_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_cache_cache_api_1_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_3_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_gridgain_ignite_shmem_1_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_analysis_5_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_commons_5_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_tree_5_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_util_5_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependency-reduced-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dependency-reduced-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scalar.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/kuleuven/distrinet/scalar/users/CassandraReadUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/kuleuven/distrinet/scalar/users/CassandraReadUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/kuleuven/distrinet/scalar/users/CassandraWriteUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/kuleuven/distrinet/scalar/users/CassandraWriteUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/be/kuleuven/distrinet/scalar/cassandra/DatastaxCassandraClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/be/kuleuven/distrinet/scalar/cassandra/DatastaxCassandraClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/be/kuleuven/distrinet/scalar/requests/CassandraReadRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/be/kuleuven/distrinet/scalar/requests/CassandraReadRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/be/kuleuven/distrinet/scalar/requests/CassandraWriteRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/be/kuleuven/distrinet/scalar/requests/CassandraWriteRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/be/kuleuven/distrinet/scalar/requests/SaaSRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/be/kuleuven/distrinet/scalar/users/CassandraReadUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/be/kuleuven/distrinet/scalar/users/CassandraReadUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/be/kuleuven/distrinet/scalar/users/CassandraWriteUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/be/kuleuven/distrinet/scalar/users/CassandraWriteUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/be/kuleuven/distrinet/scalar/users/SaaSUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/original-scalar-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/original-scalar-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scalar-1.0.0-shaded.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scalar-1.0.0-wito.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scalar-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/scalar-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/FailureHandlingTestSuite.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/FailureHandlingTestSuite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/FunctionalTestSuite.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/FunctionalTestSuite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/core/AutoScalarTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/core/AutoScalarTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/core/ExperimentTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/core/ExperimentTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/core/ManagerTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/core/ManagerTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/core/ManagerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/core/ManagerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/core/PluginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/core/PluginTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/core/UserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/core/UserTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/data/DataProviderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/data/DataProviderTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/data/TestingDataProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/data/TestingDataProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/data/TestingDataProviderConnector.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/data/TestingDataProviderConnector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/junit/FailureHandlingTestRule$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/junit/FailureHandlingTestRule$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/junit/FailureHandlingTestRule.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/junit/FailureHandlingTestRule.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/junit/FailureTestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/junit/FailureTestRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/junit/ScalarSuite.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/junit/ScalarSuite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/testing/EvilPlugin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/testing/EvilPlugin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/testing/EvilTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/testing/EvilTester.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/testing/StopTestUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/testing/StopTestUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/testing/TestFeatureHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/testing/TestFeatureHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/testing/TestUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/testing/TestUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/testing/TestingException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/testing/TestingException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/testing/TimingTestPlugin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/testing/TimingTestPlugin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/testing/TimingTestRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/testing/TimingTestRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/testing/TimingTestUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/testing/TimingTestUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/testing/TimingTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/testing/TimingTester.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/testing/UserStopTestPlugin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/testing/UserStopTestPlugin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/testing/test-feature-mapping.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/conf/simpleclustertest" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,7 +101,6 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="CassandraReadRequest.java" pinned="false" current-in-tab="false">
@@ -144,10 +231,20 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>_data</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="GradleLocalSettings">
     <option name="modificationStamps">
@@ -165,6 +262,7 @@
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
+  <component name="ProjectId" id="2R0wV7oT4zP2YHn6X1QSwOXeiqA" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -275,45 +373,28 @@
       <pane id="Scratches" />
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="FullScreen" value="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/home/daan/Documents/School/CSDS/k8-scalar/development/scalar",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.26436782",
+    "run.code.analysis.last.selected.profile": "pProject Default"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="be.kuleuven.distrinet.scalar.users" />
+    </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
-      <module name="" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="PM_INSTALL_OPTIONS" value="" />
-      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="DEBUGGER_TYPE" value="Java" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <Java />
-      <Profilers>
-        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
-        <option name="GAPID_ENABLED" value="false" />
-        <option name="GAPID_DISABLE_PCS" value="false" />
-        <option name="SUPPORT_LIB_ENABLED" value="true" />
-        <option name="INSTRUMENTATION_ENABLED" value="true" />
-      </Profilers>
-      <option name="DEEP_LINK" value="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <method />
-    </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -350,143 +431,44 @@
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list />
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <method />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="JarApplication" factoryName="JAR Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SCRATCH_FILE_ID" value="0" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="scalar" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <envs />
-      <method />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
+    <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
       <properties />
       <listeners />
-      <method />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="8d31bac2-ae68-422e-ad2f-5489d78d50b5" name="Default" comment="" />
@@ -530,12 +512,8 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/be/kuleuven/distrinet/scalar/requests/CassandraReadRequest.java">
