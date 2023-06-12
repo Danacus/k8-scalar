@@ -28,14 +28,9 @@ spec:
       - name: experiment-controller
         image: quay.io/danacus/experiment-controller:0.11
         volumeMounts:
-        - name: kubeconfig
-          mountPath: /root/.kube
         - name: resultdata
           mountPath: /exp/var
       volumes:
-        - name: kubeconfig
-          secret:
-            secretName: kubeconfig
         - name: resultdata
           hostPath:
             path: /data/results

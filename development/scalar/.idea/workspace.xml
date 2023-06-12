@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8d31bac2-ae68-422e-ad2f-5489d78d50b5" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/kuleuven/distrinet/scalar/cassandra/DatastaxCassandraClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/kuleuven/distrinet/scalar/cassandra/DatastaxCassandraClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/kuleuven/distrinet/scalar/users/CassandraAdminInitUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/kuleuven/distrinet/scalar/users/CassandraAdminInitUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/original-scalar-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/original-scalar-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scalar-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/scalar-1.0.0.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
