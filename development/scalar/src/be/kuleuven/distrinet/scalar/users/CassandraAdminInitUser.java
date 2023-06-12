@@ -17,4 +17,10 @@ public class CassandraAdminInitUser extends CassandraUser {
     public void mainLoop() throws DataException, RequestException {
 
     }
+
+    @Override
+    public void onStop() {
+        super.onStop();
+        cassandra.removeTables();
+    }
 }

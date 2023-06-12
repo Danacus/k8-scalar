@@ -5,93 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d31bac2-ae68-422e-ad2f-5489d78d50b5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/scalar_1_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/scalar_1_0_0__2_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/scalar_1_0_0__3_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/kuleuven/distrinet/scalar/users/CassandraAdminInitUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/kuleuven/distrinet/scalar/users/CassandraUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jnr_jnr_x86asm_1_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_hazelcast_hazelcast_3_6_EA.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_hazelcast_hazelcast_cloud_3_6_EA.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jsch_0_1_53.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_lmax_disruptor_3_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_cache_cache_api_1_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_3_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_gridgain_ignite_shmem_1_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_analysis_5_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_commons_5_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_tree_5_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_util_5_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependency-reduced-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dependency-reduced-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scalar.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/kuleuven/distrinet/scalar/users/CassandraReadUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/kuleuven/distrinet/scalar/users/CassandraReadUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/kuleuven/distrinet/scalar/users/CassandraWriteUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/kuleuven/distrinet/scalar/users/CassandraWriteUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/be/kuleuven/distrinet/scalar/cassandra/DatastaxCassandraClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/be/kuleuven/distrinet/scalar/cassandra/DatastaxCassandraClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/be/kuleuven/distrinet/scalar/requests/CassandraReadRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/be/kuleuven/distrinet/scalar/requests/CassandraReadRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/be/kuleuven/distrinet/scalar/requests/CassandraWriteRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/be/kuleuven/distrinet/scalar/requests/CassandraWriteRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/be/kuleuven/distrinet/scalar/requests/SaaSRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/be/kuleuven/distrinet/scalar/users/CassandraReadUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/be/kuleuven/distrinet/scalar/users/CassandraReadUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/be/kuleuven/distrinet/scalar/users/CassandraWriteUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/be/kuleuven/distrinet/scalar/users/CassandraWriteUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/be/kuleuven/distrinet/scalar/users/SaaSUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/kuleuven/distrinet/scalar/cassandra/DatastaxCassandraClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/kuleuven/distrinet/scalar/cassandra/DatastaxCassandraClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/kuleuven/distrinet/scalar/users/CassandraAdminInitUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/kuleuven/distrinet/scalar/users/CassandraAdminInitUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/original-scalar-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/original-scalar-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scalar-1.0.0-shaded.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scalar-1.0.0-wito.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scalar-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/scalar-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/FailureHandlingTestSuite.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/FailureHandlingTestSuite.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/FunctionalTestSuite.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/FunctionalTestSuite.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/core/AutoScalarTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/core/AutoScalarTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/core/ExperimentTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/core/ExperimentTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/core/ManagerTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/core/ManagerTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/core/ManagerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/core/ManagerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/core/PluginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/core/PluginTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/core/UserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/core/UserTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/data/DataProviderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/data/DataProviderTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/data/TestingDataProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/data/TestingDataProvider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/data/TestingDataProviderConnector.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/data/TestingDataProviderConnector.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/junit/FailureHandlingTestRule$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/junit/FailureHandlingTestRule$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/junit/FailureHandlingTestRule.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/junit/FailureHandlingTestRule.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/junit/FailureTestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/junit/FailureTestRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/junit/ScalarSuite.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/junit/ScalarSuite.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/testing/EvilPlugin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/testing/EvilPlugin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/testing/EvilTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/testing/EvilTester.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/testing/StopTestUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/testing/StopTestUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/testing/TestFeatureHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/testing/TestFeatureHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/testing/TestUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/testing/TestUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/testing/TestingException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/testing/TestingException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/testing/TimingTestPlugin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/testing/TimingTestPlugin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/testing/TimingTestRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/testing/TimingTestRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/testing/TimingTestUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/testing/TimingTestUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/testing/TimingTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/testing/TimingTester.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/testing/UserStopTestPlugin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/testing/UserStopTestPlugin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/be/kuleuven/distrinet/scalar/testing/test-feature-mapping.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/conf/simpleclustertest" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -377,18 +295,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/home/daan/Documents/School/CSDS/k8-scalar/development/scalar",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.26436782",
-    "run.code.analysis.last.selected.profile": "pProject Default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/daan/Documents/School/CSDS/k8-scalar/development/scalar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.26436782&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="be.kuleuven.distrinet.scalar.users" />

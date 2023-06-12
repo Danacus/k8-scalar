@@ -48,8 +48,6 @@ public class DatastaxCassandraClient {
    private Cluster cluster;
 
     public void createSchema() {
-   //     Session session = cluster.connect();
-
         try {
             session.execute("CREATE KEYSPACE IF NOT EXISTS scalar WITH replication " +
                     "= {'class':'SimpleStrategy', 'replication_factor':1};");
@@ -60,11 +58,16 @@ public class DatastaxCassandraClient {
                     "message text" +
                     ");");
         } finally {
-            //session.close();
         	System.out.println("[CASSANDRA] Created schema.");
         }
+    }
 
-        
+    public void removeTables() {
+        try {
+            session.execute("TRUNCATE scalar.logs;");
+        } finally {
+            System.out.println("[CASSANDRA] Removed tables.");
+        }
     }
 
     public void write(Log aLog) {
